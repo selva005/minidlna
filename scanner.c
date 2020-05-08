@@ -492,7 +492,7 @@ int64_t insert_sat2ip_service(const char *path, char *name)
             ret = 0;
         } else {
             ret = sqlite3_last_insert_rowid(db);
-            DPRINTF(E_DEBUG, L_SCANNER, "Inserted service '%s' at %d row\n", title, ret);
+            DPRINTF(E_DEBUG, L_SCANNER, "Inserted service '%s' at %ld row\n", title, ret);
         }
    } while(0);
     return ret;

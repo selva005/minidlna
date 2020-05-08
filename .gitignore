@@ -35,3 +35,9 @@ po/stamp-po
 stamp-h1
 .deps/
 *.o
+compile
+linux/minidlna.init.d.script
+minidlnad
+data/db/
+data/minidlnad.pid
+tagutils/.dirstamp

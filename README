@@ -62,3 +62,19 @@ and start with "minidlnad -P /var/run/minidlnad.pid -f /etc/minidlna.conf"
 
 tvheadend is expected to hear on port 8080 (--http_port 8080), if you use
 default ports or another port, you have to edit upnpsoap.c.
+
+
+==================
+
+Build Instructions
+
+debian
+apt-get install gettext-tools
+
+centos 
+yum install gettext-devel intltool
+
+
+1) ./autogen.sh
+2) ./configure
+3) make
