@@ -23,6 +23,12 @@ and configuring minidlna.
 
 Prerequisites
 ==================
+debian
+apt-get install gettext-tools
+
+centos 
+yum install gettext-devel intltool
+
 
 - libexif
 - libjpeg
