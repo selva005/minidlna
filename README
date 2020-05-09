@@ -24,7 +24,7 @@ and configuring minidlna.
 Prerequisites
 ==================
 debian
-apt-get install gettext autopoint
+apt-get install gettext autopoint libexif-dev libavutil-dev libavcodec-dev libavformat-dev libjpeg-dev libsqlite3-dev libid3tag0-dev libbogg-dev libvorbis-dev libflac-dev
 
 centos 
 yum install gettext-devel intltool

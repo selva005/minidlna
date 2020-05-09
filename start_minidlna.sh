@@ -1,1 +1,2 @@
-./minidlnad -P /home/tselva/software/minidlna/data/minidlnad.pid -f /home/tselva/software/minidlna/data/minidlna.conf
+kill -9 `cat /home/tselva/Documents/minidlna/data/minidlnad.pid`
+./minidlnad -P /home/tselva/Documents/minidlna/data/minidlnad.pid -f /home/tselva/Documents/minidlna/data/minidlna.conf
